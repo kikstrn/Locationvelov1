@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#carte {
+    width:100%;
+    height:110%;
+    border:0;
+}
+
+#footer {
+    margin-top:7%;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        overflow-y: auto;
+    }
+
+    #reserver {
+        margin-top:15%;
+    }
+}
+
+
+B {
+    font-size: xx-large;
+}

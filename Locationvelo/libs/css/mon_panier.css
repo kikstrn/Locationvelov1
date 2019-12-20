@@ -1,0 +1,43 @@
+h2 {
+    font-weight: bold;
+    margin-top:5%;
+    text-align: center;
+}
+
+#recap {
+    height: 50vh;
+}
+
+#paiement {
+    border: 1px solid black;
+    height:44vh;
+}
+
+.total {
+    font-weight: bold;
+
+}
+
+.pay {
+    color: mediumblue;
+    font-weight: bold;
+
+}
+
+.pal {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.logo_paypal {
+    color: mediumblue;
+}
+
+.paiement {
+    font-weight: bold;
+}
+
+footer {
+    margin-top : 70px;
+}
+

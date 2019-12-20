@@ -1,0 +1,66 @@
+
+#logo {
+    width:20%;
+    height:20%;
+}
+
+#slider {
+    height: 33vh;
+}
+
+
+#new_user {
+    cursor: pointer;
+}
+
+#condition_generale {
+    cursor: pointer;
+}
+
+#condition_utilisation{
+    cursor: pointer;
+}
+
+#navbarNav {
+    margin-left: 16%;
+}
+
+.card:hover {
+    text-decoration: none;
+}
+
+.prix {
+    font-size:25px;
+}
+
+.card{
+    transition-property:transform, box-shadow;
+    transition-duration: 1s;
+}
+.card:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 6px #17a2b8;
+}
+
+#modal-content {
+    height:58vh;
+    overflow-y:auto ;
+}
+
+h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 440px) {
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+
+    #navbarNav {
+        margin-left:1%;
+    }
+}
+

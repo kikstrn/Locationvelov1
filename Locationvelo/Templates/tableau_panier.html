@@ -1,0 +1,32 @@
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Type</th>
+        <th scope="col">Quantités</th>
+        <th scope="col">Retrait</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Action</th>
+    </tr>
+    </thead>
+    <tbody data-display="panier">
+
+    </tbody>
+</table>
+
+<table class="d-none">
+    <tr data-table="panier" data-model="panier">
+        <!--<th scope="row" class="d-none" data-field="id"></th>-->
+        <td data-field="type"></td>
+        <td data-field="quantite"></td>
+        <td data-field="retrait"></td>
+        <td data-field="prix"></td>
+        <td>
+            <button type="button" class="btn btn-danger ml-2" data-action="delete">
+                Supprimer
+            </button>
+        </td>
+    </tr>
+</table>
+
+<link rel="stylesheet" href="../libs/css/tableau_panier.css">
